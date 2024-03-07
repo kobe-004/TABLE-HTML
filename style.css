@@ -1,0 +1,76 @@
+* {
+    background-color: #191919;
+    font-family: "Kanit", sans-serif;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+
+}
+h2 {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+div table {
+    margin-left: 10%;
+    
+}
+
+table {
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+tr, th, td {
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: azure;
+}
+
+td {
+
+
+    font-size: 1.2rem;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+.highlight {
+    font-size: 2rem;
+    font-weight: 800px;
+    font-style: italic;
+}
+
+img {
+    width: 30px;
+}
+
+button {
+    background-color: EE4266;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+button:hover {
+    background-color: #FF004D;
+}
